@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\PHPCtx\Ctx\Basic;
+namespace Ctx\Basic;
 
 use PHPCtx\Ctx\Basic\Ctx as BasicCtx;
 
@@ -8,7 +8,7 @@ use PHPCtx\Ctx\Basic\Ctx as BasicCtx;
  * Class Ctx
  * @package Ctx\Basic
  *
- * @property \Tests\PHPCtx\Ctx\Ctx $ctx
+ * @property \Ctx\Ctx $ctx
  */
 abstract class Ctx extends BasicCtx
 {
