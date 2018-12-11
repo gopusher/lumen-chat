@@ -6,7 +6,7 @@ use PHPCtx\Ctx\Ctx as BasicCtx;
 
 /**
  * Class Ctx
- * @property \Ctx\Service\Example\Ctx $Example
+ * @property \Ctx\Service\Chat\Ctx $Chat
  */
 class Ctx extends BasicCtx
 {

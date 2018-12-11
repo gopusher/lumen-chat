@@ -136,16 +136,16 @@
         },
         {
             "name": "gopusher/sdk",
-            "version": "0.1.2",
+            "version": "0.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Gopusher/sdk.git",
-                "reference": "4eaf15511f926071a3e0e6b63e9f1b82428fdef2"
+                "reference": "1ca6e1d70bce4506d2b418a88611b147d6375a57"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Gopusher/sdk/zipball/4eaf15511f926071a3e0e6b63e9f1b82428fdef2",
-                "reference": "4eaf15511f926071a3e0e6b63e9f1b82428fdef2",
+                "url": "https://api.github.com/repos/Gopusher/sdk/zipball/1ca6e1d70bce4506d2b418a88611b147d6375a57",
+                "reference": "1ca6e1d70bce4506d2b418a88611b147d6375a57",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -173,7 +173,7 @@
                 "gopusher",
                 "im"
             ],
-            "time": "2018-12-03T06:31:12+00:00"
+            "time": "2018-12-11T05:07:47+00:00"
         },
         {
             "name": "illuminate/auth",

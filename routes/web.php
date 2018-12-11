@@ -11,6 +11,9 @@
 |
 */
 
-$router->get('/', function () use ($router) {
-    return $router->app->version();
+/** @var \Laravel\Lumen\Routing\Router $router */
+$router->group(['prefix' => '/im'], function () use ($router) {
+    //comet 接入层rpc入口
+    //@see https://github.com/Gopusher/comet/wiki/notification-zh
+    $router->post('/rpc', 'RpcController@index');
 });
